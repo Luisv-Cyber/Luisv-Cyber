@@ -1,16 +1,35 @@
-## Hi there 👋
+# 👋 Hi, I'm Luis Vega
 
-<!--
-**Luisv-Cyber/Luisv-Cyber** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 💻 Entry-Level Cybersecurity Analyst | Security+ | Network+ | Linux | Networking
 
-Here are some ideas to get you started:
+I'm a cybersecurity learner focused on hands-on technical growth, system hardening, and real-world defensive practices. I hold Security+ and Network+ certifications and have completed technical training in networking, Linux administration, and risk management.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm currently building my portfolio to pursue a role as a SOC Analyst or Junior Security Analyst.
+
+---
+
+## 📁 Projects
+
+### 🔹 [PSP Go Firmware Setup](https://github.com/Luisv-Cyber/psp-firmware-mod)
+Installed a specific version of custom firmware on a PSP Go using USB transfer tools. Explored embedded system structure and troubleshooting while customizing the device to run selected game files.
+
+### 🔹 [Blocking Access to a Website (Firewall + Hosts)](https://github.com/Luisv-Cyber/block-malicious-site)
+Used `ip6tables` and `/etc/hosts` to block outbound traffic to a suspicious IP. Verified DNS behavior using `dig`, `nslookup`, and `ping`.
+
+---
+
+## 🧠 Currently Learning
+- Linux system configuration and scripting  
+- Security monitoring fundamentals  
+- Static IP and DHCP configuration  
+- **Python for cybersecurity and automation**
+
+---
+
+## 📬 Contact
+- ✉️ **Email**: Luisgvega21@gmail.com  
+- 🔗 **LinkedIn**: [linkedin.com/in/luisvega03](https://linkedin.com/in/luisvega03)
+
+---
+
+Thanks for checking out my profile. Let’s connect!
