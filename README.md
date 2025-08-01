@@ -10,6 +10,9 @@ I'm currently building my portfolio to pursue a role as a SOC Analyst or Junior 
 
 ## 📁 Projects
 
+### 🔹 [Flask SAML Authentication with Google Workspace](https://github.com/Luisv-Cyber/flask-saml-auth)
+Built a secure Single Sign-On (SSO) system for a Flask web application using SAML 2.0 and Google Workspace as the Identity Provider. Parsed Google metadata, configured JSON settings, and validated login flow with digital certificates.
+
 ### 🔹 [PSP Go Firmware Setup](https://github.com/Luisv-Cyber/psp-firmware-mod)
 Installed a specific version of custom firmware on a PSP Go using USB transfer tools. Explored embedded system structure and troubleshooting while customizing the device to run selected game files.
 
