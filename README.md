@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Luis Vega
+#  Hi, I'm Luis Vega
 
 ### 💻 Cybersecurity Analyst | Security+ | Network+ | Linux | Networking
 
