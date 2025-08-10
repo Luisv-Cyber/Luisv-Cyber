@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Luis Vega
 
-### 💻 Entry-Level Cybersecurity Analyst | Security+ | Network+ | Linux | Networking
+### 💻 Cybersecurity Analyst | Security+ | Network+ | Linux | Networking
 
 I'm a cybersecurity learner focused on hands-on technical growth, system hardening, and real-world defensive practices. I hold Security+ and Network+ certifications and have completed technical training in networking, Linux administration, and risk management.
 
