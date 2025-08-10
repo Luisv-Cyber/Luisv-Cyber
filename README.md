@@ -10,6 +10,12 @@ I'm currently building my portfolio to pursue a role as a SOC Analyst or Junior 
 
 ## 📁 Projects
 
+
+- [**Azure Sentinel Global Attack Map**](https://github.com/Luisv-Cyber/azure-sentinel-global-attack-map)  
+  SOC lab detecting and visualizing simulated brute-force RDP attacks using Azure Sentinel, Microsoft Defender, and PowerShell parsing scripts.  
+  *[Full walkthrough with visuals in my portfolio](https://bit.ly/41jjq8w)*
+
+
 ### 🔹 [Flask SAML Authentication with Google Workspace](https://github.com/Luisv-Cyber/flask-saml-auth)
 Built a secure Single Sign-On (SSO) system for a Flask web application using SAML 2.0 and Google Workspace as the Identity Provider. Parsed Google metadata, configured JSON settings, and validated login flow with digital certificates.
 
