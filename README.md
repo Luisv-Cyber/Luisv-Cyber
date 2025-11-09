@@ -4,7 +4,7 @@
 
 I'm a cybersecurity learner focused on hands-on technical growth, system hardening, and real-world defensive practices. I hold Security+ and Network+ certifications and have completed technical training in networking, Linux administration, and risk management.
 
-I'm currently building my portfolio to pursue a role as a SOC Analyst or Junior Security Analyst.
+I’m currently expanding my infrastructure and automation skills to transition into a Systems Administrator role, focusing on reliability, security, and hybrid cloud systems.
 
 ---
 
