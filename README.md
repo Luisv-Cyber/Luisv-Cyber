@@ -2,14 +2,15 @@
 
 ### 🖥️ IT Systems Professional | Security+ | Network+ | Infrastructure | Automation
 
-I'm an IT Support Engineer with a strong foundation in networking and security, currently transitioning into **Systems and Infrastructure Administration**.  
-I hold **CompTIA Security+** and **Network+** certifications and have hands-on experience with system configuration, troubleshooting, and endpoint security.  
+I'm an IT Support professional transitioning into Systems & Infrastructure Administration.  
+I provide remote endpoint support (Windows/macOS), deploy and maintain support tools, perform account administration and password resets, and onboard network devices (DVR/NVR, Hik-App, IP cameras).  
+My background in networking and security (Security+, Network+) guides my focus on reliable system configuration, secure device management, and automation.
 
 I'm currently expanding my skills in **Windows Server administration, PowerShell automation, and hybrid cloud systems (Azure)** — building a foundation for a Systems Administrator role focused on reliability, security, and efficiency.
 
----
+Here are a few of my technical projects showcasing hands-on experience with system configuration, security, and automation.
 
-## 📁 Projects
+## 📁 Projects 
 
 ### 🔹 [Azure Sentinel Global Attack Map](https://github.com/Luisv-Cyber/azure-sentinel-global-attack-map)
 Simulated RDP brute-force attacks and visualized them in **Azure Sentinel** using Microsoft Defender logs and PowerShell event parsing.  
@@ -59,7 +60,7 @@ I’m currently building a **Windows Server 2022 Active Directory Lab** to demon
 
 ## 🌱 Currently Learning
 - PowerShell scripting for system automation  
-- Azure Administrator (AZ-104) preparation  
+- Exploring Azure fundamentals and cloud resource management  
 - Endpoint management and hybrid environments  
 - System documentation and infrastructure security  
 
