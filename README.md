@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Luis Vega
+# Hi, I'm Luis Vega
 
 ### 🖥️ IT Systems Professional | Security+ | Network+ | Infrastructure | Automation
 
