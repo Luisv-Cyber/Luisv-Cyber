@@ -1,14 +1,38 @@
-# Hi, I'm Luis Vega
+<h1 align="center">Hi, I'm Luis Vega 👋</h1>
 
-### 🖥️ IT Systems Professional | Security+ | Network+ | Infrastructure | Automation
+<p align="center">
+  <b>IT Systems Support | Infrastructure | Networking | Security+ | Network+ | Automation</b>
+</p>
 
-I'm an IT Support professional transitioning into Systems & Infrastructure Administration.  
-I provide remote endpoint support (Windows/macOS), deploy and maintain support tools, perform account administration and password resets, and onboard network devices (DVR/NVR, Hik-App, IP cameras).  
-My background in networking and security (Security+, Network+) guides my focus on reliable system configuration, secure device management, and automation.
+<p align="center">
+  <a href="https://www.linkedin.com/in/luisvega03">LinkedIn</a> •
+  <a href="mailto:luisgvega21@gmail.com">Email</a> •
+  <a href="https://github.com/Luisv-Cyber">GitHub</a>
+</p>
 
-I'm currently expanding my skills in **Windows Server administration, PowerShell automation, and hybrid cloud systems (Azure)** — building a foundation for a Systems Administrator role focused on reliability, security, and efficiency.
+---
 
-Here are a few of my technical projects showcasing hands-on experience with system configuration, security, and automation.
+## 🧑‍💻 About Me
+
+```python
+class ITProfessional:
+    def __init__(self):
+        self.name = "Luis Vega"
+        self.role = "IT Systems & Infrastructure Support"
+        self.skills = [
+            "System Administration",
+            "Networking (DNS/DHCP/TCP-IP)",
+            "Automation & Scripting",
+            "Endpoint Management"
+        ]
+        self.certifications = ["Security+", "Network+"]
+    
+    def goal(self):
+        return "Grow into a System Administrator role focusing on reliability, automation, and infrastructure."
+
+luis = ITProfessional()
+print(luis.goal())
+
 
 ## 📁 Projects 
 
