@@ -13,7 +13,10 @@
 
 </div>
 
----
+<!-- CYBER DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
+
+<br/>
 
 ## `> whoami`
 
@@ -52,9 +55,12 @@ print(luis.goal())
 print("Open to:", luis.available_for())
 ```
 
----
+<!-- CYBER DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
 
-## 🛡️ Certifications
+<br/>
+
+## `> cat certs.txt`
 
 <div align="center">
 
@@ -66,9 +72,25 @@ print("Open to:", luis.available_for())
 
 </div>
 
----
+<!-- CYBER DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
 
-## ⚙️ Tech Stack
+<br/>
+
+## `> ls -la ~/trophies`
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Luisv-Cyber&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophies"/>
+
+</div>
+
+<!-- CYBER DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
+
+<br/>
+
+## `> cat tech_stack.json`
 
 <div align="center">
 
@@ -108,9 +130,12 @@ print("Open to:", luis.available_for())
 
 </div>
 
----
+<!-- CYBER DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
 
-## 🚀 Featured Projects
+<br/>
+
+## `> ls -la ~/projects`
 
 <table width="100%">
 <tr>
@@ -206,9 +231,12 @@ Currently building:
 </tr>
 </table>
 
----
+<!-- CYBER DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
 
-## 📊 GitHub Stats
+<br/>
+
+## `> htop --stats`
 
 <div align="center">
 
@@ -220,15 +248,19 @@ Currently building:
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Luisv-Cyber&theme=tokyonight&background=010810&ring=0077bb&fire=4cc8ee&currStreakLabel=4cc8ee&sideLabels=c8e8f8&dates=c8e8f8&border=0a2a4a" alt="GitHub Streak"/>
 
+<br/><br/>
+
+<!-- ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Luisv-Cyber&bg_color=010810&color=4cc8ee&line=0077bb&point=009ed4&area=true&area_color=0077bb&hide_border=false&border_color=0a2a4a&title_color=4cc8ee" width="96%" alt="Activity Graph"/>
+
 </div>
 
----
+<!-- CYBER DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
 
-## 🔭 Currently Working On
+<br/>
 
-```bash
-$ git log --oneline --in-progress
-```
+## `> git log --in-progress`
 
 | | Project | Status |
 |:---:|---|:---:|
@@ -237,9 +269,12 @@ $ git log --oneline --in-progress
 | 🔐 | Access Review & Recertification Lab in AD | `📋 Planned` |
 | 🌐 | Portfolio → [luisv-cyber.github.io](https://luisv-cyber.github.io) | `✅ Live` |
 
----
+<!-- CYBER DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
 
-## 📬 Let's Connect
+<br/>
+
+## `> ping linkedin.com`
 
 <div align="center">
 
@@ -254,11 +289,56 @@ $ git log --oneline --in-progress
 <br/><br/>
 <sub>Open to <strong>Junior Systems Administrator</strong>, <strong>IAM / Access Management Analyst</strong>, and <strong>Systems Support Engineer</strong> roles.</sub>
 
+<br/><br/>
+
+<!-- SNAKE GRAPH — requires GitHub Action setup (see note below) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luisv-Cyber/Luisv-Cyber/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luisv-Cyber/Luisv-Cyber/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Luisv-Cyber/Luisv-Cyber/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
 </div>
 
 <br/>
 
-<!-- FOOTER -->
+<!-- FOOTER WAVE -->
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:009ed4,50:0077bb,100:010810&height=110&section=footer" width="100%"/>
 </div>
+
+<!--
+╔══════════════════════════════════════════════════════════╗
+║  SNAKE SETUP — one-time GitHub Action                   ║
+║                                                          ║
+║  1. In your Luisv-Cyber/Luisv-Cyber repo go to:         ║
+║     Settings → Actions → General                         ║
+║     → set "Workflow permissions" to Read and Write       ║
+║                                                          ║
+║  2. Create file:                                         ║
+║     .github/workflows/snake.yml                          ║
+║     with this content:                                   ║
+║                                                          ║
+║  name: Snake                                             ║
+║  on:                                                     ║
+║    schedule:                                             ║
+║      - cron: "0 0 * * *"                                 ║
+║    workflow_dispatch:                                     ║
+║  jobs:                                                   ║
+║    generate:                                             ║
+║      runs-on: ubuntu-latest                              ║
+║      steps:                                              ║
+║        - uses: Platane/snk/svg-only@v3                   ║
+║          with:                                           ║
+║            github_user_name: Luisv-Cyber                 ║
+║            outputs: |                                    ║
+║              dist/github-contribution-grid-snake.svg     ║
+║              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+║        - uses: crazy-max/ghaction-github-pages@v3        ║
+║          with:                                           ║
+║            target_branch: output                         ║
+║            build_dir: dist                               ║
+║          env:                                            ║
+║            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     ║
+╚══════════════════════════════════════════════════════════╝
+-->
