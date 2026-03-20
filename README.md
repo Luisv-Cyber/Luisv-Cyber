@@ -81,7 +81,21 @@ print("Open to:", luis.available_for())
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Luisv-Cyber&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="Trophies"/>
+<!-- Trophies unlock as commits, PRs, stars & followers grow -->
+<img src="https://github-profile-trophy.vercel.app/?username=Luisv-Cyber&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=10&margin-h=10" alt="Trophies"/>
+
+</div>
+
+<div align="center">
+
+| 🏆 Trophy | 📋 How to unlock |
+|:---:|---|
+| **Commits** | Push code regularly — even README updates count |
+| **Repositories** | Create new project repos (you already have 5+!) |
+| **Stars** | Get stars on your repos from other GitHub users |
+| **Followers** | Connect with others in the security community |
+| **Pull Requests** | Open PRs on your own or others' repos |
+| **Issues** | Open or close issues in your projects |
 
 </div>
 
