@@ -1,11 +1,11 @@
-<!-- ANIMATED TYPING BANNER via SVG -->
+<!-- HEADER BANNER -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:010810,40:0a2a4a,80:0077bb,100:009ed4&height=200&section=header&text=Luis%20Vega&fontSize=72&fontColor=ffffff&fontAlignY=50&desc=Sysadmin%20%E2%80%A2%20IAM%20Analyst%20%E2%80%A2%20Security%20Labs&descSize=20&descAlignY=70&animation=fadeIn&stroke=4cc8ee&strokeWidth=1" width="100%"/>
+</div>
+
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=42&duration=3000&pause=1500&color=FFFFFF&background=0A1628&center=true&vCenter=true&multiline=true&repeat=true&width=860&height=140&lines=Luis+Vega;Jr.+Systems+Administrator+%7C+IAM+%7C+Security)](https://git.io/typing-svg)
-
-<br/>
-
-<img src="https://img.shields.io/badge/Profile%20Views-Luisv--Cyber-0077bb?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://komarev.com/ghpvc/?username=Luisv-Cyber&style=for-the-badge&color=0077bb&label=PROFILE+VIEWS"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Status-Open%20to%20Work-00c8a8?style=for-the-badge&logo=checkmarx&logoColor=white"/>
 &nbsp;
