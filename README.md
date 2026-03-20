@@ -1,17 +1,17 @@
-<!-- HEADER BANNER -->
+<!-- ANIMATED TYPING BANNER via SVG -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:010810,40:0a2a4a,80:0077bb,100:009ed4&height=180&section=header&text=Luis%20Vega&fontSize=68&fontColor=ffffff&fontAlignY=52&desc=Junior%20Systems%20Administrator%20%E2%80%A2%20IAM%20Analyst%20%E2%80%A2%20Security%20Labs&descSize=16&descAlignY=72&animation=blinking&stroke=009ed4&strokeWidth=2" width="100%"/>
-</div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Luisv-Cyber&style=for-the-badge&color=0077bb&label=PROFILE+VIEWS"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-00c8a8?style=for-the-badge&logo=checkmarx&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Location-Hybrid%20Friendly-4cc8ee?style=for-the-badge&logo=googlemaps&logoColor=white"/>
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=42&duration=3000&pause=1500&color=FFFFFF&background=0A1628&center=true&vCenter=true&multiline=true&repeat=true&width=860&height=140&lines=Luis+Vega;Jr.+Systems+Administrator+%7C+IAM+%7C+Security)](https://git.io/typing-svg)
 
 <br/>
+
+<img src="https://img.shields.io/badge/Profile%20Views-Luisv--Cyber-0077bb?style=for-the-badge&logo=github&logoColor=white"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Status-Open%20to%20Work-00c8a8?style=for-the-badge&logo=checkmarx&logoColor=white"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Location-Hybrid%20Friendly-4cc8ee?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+
+</div>
 
 ---
 
@@ -37,8 +37,6 @@ class ITProfessional:
 print(ITProfessional().goal())
 ```
 
-> 💡 **Tip:** Upload your `avatar.png` to the `Luisv-Cyber/Luisv-Cyber` repo root to display your profile photo above.
-
 <br clear="right"/>
 
 ---
@@ -61,34 +59,39 @@ print(ITProfessional().goal())
 
 <div align="center">
 
-**🗂 Identity & Directory**<br/>
-<img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=for-the-badge&logo=microsoft&logoColor=white"/>
-<img src="https://img.shields.io/badge/Windows%20Server-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white"/>
-<img src="https://img.shields.io/badge/RBAC%20%2F%20IAM-009ed4?style=for-the-badge&logo=authelia&logoColor=white"/>
-<img src="https://img.shields.io/badge/GPO%20%2F%20OU%20Design-0077bb?style=for-the-badge&logo=microsoft&logoColor=white"/>
-
-<br/><br/>
-
-**☁️ Cloud & Monitoring**<br/>
-<img src="https://img.shields.io/badge/Azure%20Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-<img src="https://img.shields.io/badge/KQL%20%2F%20Log%20Analytics-0077bb?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-<img src="https://img.shields.io/badge/Microsoft%20Defender-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-
-<br/><br/>
-
-**🐧 Linux & Scripting**<br/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Cron%20Automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
-
-<br/><br/>
-
-**🔑 Protocols & Access**<br/>
-<img src="https://img.shields.io/badge/SAML%202.0%20%2F%20SSO-FF6C37?style=for-the-badge&logo=openid&logoColor=white"/>
-<img src="https://img.shields.io/badge/DNS%20%2F%20DHCP-4cc8ee?style=for-the-badge&logo=cloudflare&logoColor=white"/>
-<img src="https://img.shields.io/badge/NTFS%20Permissions-009ed4?style=for-the-badge&logo=files&logoColor=white"/>
+<table>
+<tr>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/🗂-Identity_%26_Directory-0a2a4a?style=for-the-badge" /><br/><br/>
+<img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/Windows%20Server-0078D4?style=flat-square&logo=windows&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/RBAC%20%2F%20IAM-009ed4?style=flat-square&logo=authelia&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/GPO%20%2F%20OU%20Design-0077bb?style=flat-square&logo=microsoft&logoColor=white"/>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/☁️-Cloud_%26_Monitoring-0a2a4a?style=for-the-badge" /><br/><br/>
+<img src="https://img.shields.io/badge/Azure%20Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/KQL%20%2F%20Log%20Analytics-0077bb?style=flat-square&logo=microsoftazure&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/Microsoft%20Defender-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/Azure%20AD-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/🐧-Linux_%26_Scripting-0a2a4a?style=for-the-badge" /><br/><br/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/><br/>
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/Cron%20Automation-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
+</td>
+<td align="center" width="200">
+<img src="https://img.shields.io/badge/🔑-Protocols_%26_Access-0a2a4a?style=for-the-badge" /><br/><br/>
+<img src="https://img.shields.io/badge/SAML%202.0%20%2F%20SSO-FF6C37?style=flat-square&logo=openid&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/DNS%20%2F%20DHCP-4cc8ee?style=flat-square&logo=cloudflare&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/NTFS%20Permissions-009ed4?style=flat-square&logo=files&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/LDAP%20%2F%20Kerberos-0077bb?style=flat-square&logo=microsoft&logoColor=white"/>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -107,7 +110,7 @@ print(ITProfessional().goal())
 ![GPO](https://img.shields.io/badge/GPO-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![PS](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 
-Full enterprise AD environment from scratch. Domain controller setup, DNS, GPO configuration, OU structure, and full user/group lifecycle on Windows Server.
+Full enterprise AD environment from scratch. Domain controller setup, DNS, GPO, OU structure, and full user/group lifecycle on Windows Server.
 
 `DC Promotion` · `ADUC` · `GPO Enforcement` · `OU Design`
 
@@ -120,9 +123,9 @@ Full enterprise AD environment from scratch. Domain controller setup, DNS, GPO c
 ![RBAC](https://img.shields.io/badge/RBAC-0077bb?style=flat-square&logo=microsoft&logoColor=white)
 ![AD](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 
-IAM lab built on AD — role-based access control, least-privilege enforcement, user lifecycle management, and access review workflows.
+IAM lab on AD — RBAC, least-privilege enforcement, user lifecycle management, and access review workflows fully documented.
 
-`RBAC` · `Least Privilege` · `Access Reviews` · `User Provisioning`
+`RBAC` · `Least Privilege` · `Access Reviews` · `Provisioning`
 
 </td>
 </tr>
@@ -138,7 +141,7 @@ IAM lab built on AD — role-based access control, least-privilege enforcement, 
 ![KQL](https://img.shields.io/badge/KQL-0077bb?style=flat-square&logo=microsoftazure&logoColor=white)
 ![LogAnalytics](https://img.shields.io/badge/Log%20Analytics-009ed4?style=flat-square&logo=microsoftazure&logoColor=white)
 
-Real-time RDP brute-force attack telemetry visualized on an interactive global map using Azure Sentinel and custom KQL queries.
+Real-time RDP brute-force telemetry visualized on an interactive global map using Azure Sentinel and custom KQL queries.
 
 `SIEM` · `Threat Visualization` · `KQL` · `Azure Cloud`
 
@@ -151,7 +154,7 @@ Real-time RDP brute-force attack telemetry visualized on an interactive global m
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-SAML 2.0 SSO with Google Workspace as IdP and Flask as the service provider. Full authentication flow implemented and documented.
+SAML 2.0 SSO with Google Workspace as IdP and Flask as the service provider. Full auth flow implemented and documented.
 
 `SSO` · `SAML` · `IdP/SP Config` · `Python/Flask`
 
@@ -169,7 +172,7 @@ SAML 2.0 SSO with Google Workspace as IdP and Flask as the service provider. Ful
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Cron](https://img.shields.io/badge/Cron-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-SHA-256 hashing + Bash scripting + cron scheduling to detect unauthorized file changes. Lightweight, host-level security visibility tool.
+SHA-256 hashing + Bash + cron to detect unauthorized file changes. Lightweight host-level security visibility tool.
 
 `FIM` · `Bash Scripting` · `Cron Automation` · `Linux Security`
 
@@ -178,12 +181,11 @@ SHA-256 hashing + Bash scripting + cron scheduling to detect unauthorized file c
 
 ### 📁 Coming Soon
 
-![Status](https://img.shields.io/badge/In%20Progress-AZ--104%20Lab-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Status](https://img.shields.io/badge/Planned-Access%20Review%20Lab-009ed4?style=flat-square)
+![Status](https://img.shields.io/badge/🔧%20In%20Progress-AZ--104%20Lab-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Status](https://img.shields.io/badge/📋%20Planned-Access%20Review%20Lab-009ed4?style=flat-square)
 
 Currently building:
-
-- **AZ-104 Azure Administrator** study lab
+- **AZ-104 Azure Administrator** lab
 - **Access Review & Recertification** workflow in AD
 - **PowerShell bulk provisioning** automation scripts
 
@@ -237,7 +239,6 @@ $ git log --oneline --in-progress
 </a>
 
 <br/><br/>
-
 <sub>Open to <strong>Junior Systems Administrator</strong>, <strong>IAM / Access Management Analyst</strong>, and <strong>Systems Support Engineer</strong> roles.</sub>
 
 </div>
