@@ -17,16 +17,22 @@
 
 ## `> whoami`
 
-<img align="right" width="155" src="https://raw.githubusercontent.com/Luisv-Cyber/Luisv-Cyber/main/avatar.png" alt="Luis Vega"/>
-
 ```python
 class ITProfessional:
     def __init__(self):
-        self.name     = "Luis Vega"
-        self.role     = "Jr. Sysadmin | IAM Analyst | Systems Support"
-        self.certs    = ["Security+", "Network+"]
-        self.focus    = ["Active Directory", "IAM/RBAC",
-                         "Azure Sentinel", "Linux Automation"]
+        self.name          = "Luis Vega"
+        self.role          = "Jr. Sysadmin | IAM Analyst | Systems Support Engineer"
+        self.location      = "Hybrid-friendly"
+        self.certs         = ["CompTIA Security+", "CompTIA Network+"]
+        self.pursuing      = "AZ-104 Azure Administrator"
+        self.focus         = [
+            "Active Directory & GPO",
+            "IAM / RBAC / Access Control",
+            "Azure Sentinel & KQL",
+            "Linux Automation & Bash Scripting",
+            "SAML 2.0 / SSO / Identity Protocols",
+        ]
+        self.strengths     = ["Documentation-first", "Reproducible builds", "Operational thinking"]
 
     def goal(self):
         return (
@@ -34,10 +40,17 @@ class ITProfessional:
             "hands-on with AD, identity lifecycle, and cloud visibility."
         )
 
-print(ITProfessional().goal())
-```
+    def available_for(self):
+        return [
+            "Junior Systems Administrator",
+            "IAM / Access Management Analyst",
+            "Systems Support Engineer",
+        ]
 
-<br clear="right"/>
+luis = ITProfessional()
+print(luis.goal())
+print("Open to:", luis.available_for())
+```
 
 ---
 
