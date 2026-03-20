@@ -77,27 +77,43 @@ print("Open to:", luis.available_for())
 
 <br/>
 
-## `> ls -la ~/trophies`
+## `> cat mission.sh`
 
-<div align="center">
+```bash
+#!/bin/bash
+# ─────────────────────────────────────────────
+#  Luis Vega — IT Professional Mission Statement
+# ─────────────────────────────────────────────
 
-<!-- Trophies unlock as commits, PRs, stars & followers grow -->
-<img src="https://github-profile-trophy.vercel.app/?username=Luisv-Cyber&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=10&margin-h=10" alt="Trophies"/>
+NAME="Luis Vega"
+TARGET_ROLES=("Jr. Systems Administrator" "IAM Analyst" "Systems Support Engineer")
+CERTIFICATIONS=("CompTIA Security+" "CompTIA Network+")
+PURSUING="AZ-104 Azure Administrator"
 
-</div>
+current_focus() {
+  echo "[+] Active Directory — enterprise domain management & GPO"
+  echo "[+] IAM / RBAC      — identity lifecycle & access control"
+  echo "[+] Azure Sentinel  — cloud SIEM, KQL, threat detection"
+  echo "[+] Linux / Bash    — automation, FIM, cron scheduling"
+  echo "[+] SAML 2.0 / SSO  — identity federation & protocols"
+}
 
-<div align="center">
+strengths() {
+  echo "[✓] Documentation-first approach on every project"
+  echo "[✓] Reproducible lab builds with clear step-by-step guides"
+  echo "[✓] Operational thinking — focused on the why, not just the how"
+}
 
-| 🏆 Trophy | 📋 How to unlock |
-|:---:|---|
-| **Commits** | Push code regularly — even README updates count |
-| **Repositories** | Create new project repos (you already have 5+!) |
-| **Stars** | Get stars on your repos from other GitHub users |
-| **Followers** | Connect with others in the security community |
-| **Pull Requests** | Open PRs on your own or others' repos |
-| **Issues** | Open or close issues in your projects |
-
-</div>
+echo ">> Running mission statement for: $NAME"
+echo ">> Target roles: ${TARGET_ROLES[*]}"
+echo ""
+current_focus
+echo ""
+strengths
+echo ""
+echo ">> Status: Open to work — hybrid-friendly"
+echo ">> Portfolio: https://luisv-cyber.github.io"
+```
 
 <!-- CYBER DIVIDER -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
