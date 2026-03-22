@@ -27,7 +27,7 @@ class ITProfessional:
         self.role          = "Jr. Sysadmin | IAM Analyst | Systems Support Engineer"
         self.location      = "Hybrid-friendly"
         self.certs         = ["CompTIA Security+", "CompTIA Network+"]
-        self.pursuing      = "AZ-104 Azure Administrator"
+        self.pursuing      = "Possibly AZ next"
         self.focus         = [
             "Active Directory & GPO",
             "IAM / RBAC / Access Control",
@@ -68,7 +68,7 @@ print("Open to:", luis.available_for())
 &nbsp;
 <img src="https://img.shields.io/badge/CompTIA-Network%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Pursuing-AZ--104%20Azure%20Admin-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Possibly%20Pursuing-AZ%20Next-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 
 </div>
 
@@ -88,7 +88,7 @@ print("Open to:", luis.available_for())
 NAME="Luis Vega"
 TARGET_ROLES=("Jr. Systems Administrator" "IAM Analyst" "Systems Support Engineer")
 CERTIFICATIONS=("CompTIA Security+" "CompTIA Network+")
-PURSUING="AZ-104 Azure Administrator"
+PURSUING="Possibly AZ next"
 
 current_focus() {
   echo "[+] Active Directory — enterprise domain management & GPO"
@@ -247,15 +247,15 @@ SHA-256 hashing + Bash + cron to detect unauthorized file changes. Lightweight h
 </td>
 <td width="50%" valign="top">
 
-### 📁 Coming Soon
+### 🖥️ [Linux Sysadmin Lab — Hyper-V](https://github.com/Luisv-Cyber/linux-sysadmin-lab-hyperv)
 
-![Status](https://img.shields.io/badge/🔧%20In%20Progress-AZ--104%20Lab-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Status](https://img.shields.io/badge/📋%20Planned-Access%20Review%20Lab-009ed4?style=flat-square)
+![Ubuntu](https://img.shields.io/badge/Ubuntu%2024.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![HyperV](https://img.shields.io/badge/Hyper--V-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 
-Currently building:
-- **AZ-104 Azure Administrator** lab
-- **Access Review & Recertification** workflow in AD
-- **PowerShell bulk provisioning** automation scripts
+Ubuntu Server 24.04 LTS homelab on Hyper-V — user/group management, RBAC, SSH hardening, systemctl, and automated disk monitoring via Bash + cron.
+
+`Linux Admin` · `Bash` · `Cron` · `SSH Hardening` · `Hyper-V`
 
 </td>
 </tr>
@@ -295,7 +295,7 @@ Currently building:
 | | Project | Status |
 |:---:|---|:---:|
 | 📁 | AD Enterprise Lab — PowerShell bulk provisioning | `🔧 In Progress` |
-| ☁️ | AZ-104 Azure Administrator certification | `📖 Studying` |
+| ☁️ | AZ certification (possibly AZ next) | `🔍 Exploring` |
 | 🔐 | Access Review & Recertification Lab in AD | `📋 Planned` |
 | 🌐 | Portfolio → [luisv-cyber.github.io](https://luisv-cyber.github.io) | `✅ Live` |
 
