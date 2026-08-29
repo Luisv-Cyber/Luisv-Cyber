@@ -1,374 +1,217 @@
-<!-- HEADER BANNER -->
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:010810,40:0a2a4a,80:0077bb,100:009ed4&height=200&section=header&text=Luis%20Vega&fontSize=72&fontColor=ffffff&fontAlignY=50&desc=Sysadmin%20%E2%80%A2%20IAM%20Analyst%20%E2%80%A2%20Security%20Labs&descSize=20&descAlignY=70&animation=fadeIn&stroke=4cc8ee&strokeWidth=1" width="100%"/>
-</div>
+================================================================
+FILE: README.md   (place at the root of your Luisv-Cyber/Luisv-Cyber repo)
+================================================================
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=Luisv-Cyber&style=for-the-badge&color=0077bb&label=PROFILE+VIEWS"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Status-Open%20to%20Work-00c8a8?style=for-the-badge&logo=checkmarx&logoColor=white"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Location-Hybrid%20Friendly-4cc8ee?style=for-the-badge&logo=googlemaps&logoColor=white"/>
+<img src="./assets/banner.svg" width="100%" alt="Luis Vega — IAM / Systems Administration"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Open%20to-IAM%20%2F%20SysAdmin%20Opportunities-0077bb?style=flat-square"/>
+
+<br/><br/>
+
+**[Portfolio](https://luisv-cyber.github.io)** &nbsp;·&nbsp; **[Resume](https://luisv-cyber.github.io/Luis-Vega-Resume.pdf)** &nbsp;·&nbsp; **[LinkedIn](https://linkedin.com/in/luisvega03)**
 
 </div>
-
-<!-- CYBER DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
 
 <br/>
 
 ## `> whoami`
 
-```python
-class ITProfessional:
-    def __init__(self):
-        self.name          = "Luis Vega"
-        self.role          = "Jr. Sysadmin | IAM Analyst | Systems Support Engineer"
-        self.location      = "Hybrid-friendly"
-        self.certs         = ["CompTIA Security+", "CompTIA Network+"]
-        self.pursuing      = "Possibly AZ next"
-        self.focus         = [
-            "Active Directory & GPO",
-            "IAM / RBAC / Access Control",
-            "Azure Sentinel & KQL",
-            "Linux Automation & Bash Scripting",
-            "SAML 2.0 / SSO / Identity Protocols",
-        ]
-        self.strengths     = ["Documentation-first", "Reproducible builds", "Operational thinking"]
+Luis Vega is a Security+ and Network+ certified IT professional focused on identity and systems administration. I build and document hands-on projects around Active Directory, IAM, access control, Windows Server, Linux administration, PowerShell, and SSO.
 
-    def goal(self):
-        return (
-            "Build reliable, well-documented security infrastructure — "
-            "hands-on with AD, identity lifecycle, and cloud visibility."
-        )
-
-    def available_for(self):
-        return [
-            "Junior Systems Administrator",
-            "IAM / Access Management Analyst",
-            "Systems Support Engineer",
-        ]
-
-luis = ITProfessional()
-print(luis.goal())
-print("Open to:", luis.available_for())
-```
-
-<!-- CYBER DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
+**Target roles:** IAM / Access Management Analyst · Junior Systems Administrator · Systems Support Engineer
 
 <br/>
 
-## `> cat certs.txt`
+## Featured Project
 
-<div align="center">
+### Active Directory Enterprise Lab
 
-<img src="https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white"/>
-&nbsp;
-<img src="https://img.shields.io/badge/CompTIA-Network%2B-FF0000?style=for-the-badge&logo=comptia&logoColor=white"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Possibly%20Pursuing-AZ%20Next-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+<img src="https://github.com/Luisv-Cyber/Active-Directory-Enterprise-Lab/raw/main/screenshots/Screenshot%202026-03-15%20122836.png?raw=true" width="100%" alt="Active Directory OU structure in the Active Directory Enterprise Lab"/>
 
-</div>
+Built a Windows Server Active Directory environment from scratch to practice enterprise administration workflows including domain services, DNS, GPO, OU design, user/group lifecycle, and access management.
 
-<!-- CYBER DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
+**Capabilities**
+- AD DS and domain controller configuration
+- OU and Group Policy design
+- User and group lifecycle administration
+- DNS and Windows Server administration
 
-<br/>
+**Technologies:** Active Directory · Windows Server · PowerShell · GPO · DNS
 
-## `> cat mission.sh`
+**[View Project →](https://github.com/Luisv-Cyber/Active-Directory-Enterprise-Lab)**
 
-```bash
-#!/bin/bash
-# ─────────────────────────────────────────────
-#  Luis Vega — IT Professional Mission Statement
-# ─────────────────────────────────────────────
+---
 
-NAME="Luis Vega"
-TARGET_ROLES=("Jr. Systems Administrator" "IAM Analyst" "Systems Support Engineer")
-CERTIFICATIONS=("CompTIA Security+" "CompTIA Network+")
-PURSUING="Possibly AZ next"
-
-current_focus() {
-  echo "[+] Active Directory — enterprise domain management & GPO"
-  echo "[+] IAM / RBAC      — identity lifecycle & access control"
-  echo "[+] Azure Sentinel  — cloud SIEM, KQL, threat detection"
-  echo "[+] Linux / Bash    — automation, FIM, cron scheduling"
-  echo "[+] SAML 2.0 / SSO  — identity federation & protocols"
-}
-
-strengths() {
-  echo "[✓] Documentation-first approach on every project"
-  echo "[✓] Reproducible lab builds with clear step-by-step guides"
-  echo "[✓] Operational thinking — focused on the why, not just the how"
-}
-
-echo ">> Running mission statement for: $NAME"
-echo ">> Target roles: ${TARGET_ROLES[*]}"
-echo ""
-current_focus
-echo ""
-strengths
-echo ""
-echo ">> Status: Open to work — hybrid-friendly"
-echo ">> Portfolio: https://luisv-cyber.github.io"
-```
-
-<!-- CYBER DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
-
-<br/>
-
-## `> cat tech_stack.json`
-
-<div align="center">
+## Selected Projects
 
 <table>
 <tr>
-<td align="center" width="200">
-<img src="https://img.shields.io/badge/🗂-Identity_%26_Directory-0a2a4a?style=for-the-badge" /><br/><br/>
-<img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/Windows%20Server-0078D4?style=flat-square&logo=windows&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/RBAC%20%2F%20IAM-009ed4?style=flat-square&logo=authelia&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/GPO%20%2F%20OU%20Design-0077bb?style=flat-square&logo=microsoft&logoColor=white"/>
-</td>
-<td align="center" width="200">
-<img src="https://img.shields.io/badge/☁️-Cloud_%26_Monitoring-0a2a4a?style=for-the-badge" /><br/><br/>
-<img src="https://img.shields.io/badge/Azure%20Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/KQL%20%2F%20Log%20Analytics-0077bb?style=flat-square&logo=microsoftazure&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/Microsoft%20Defender-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/Azure%20AD-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
-</td>
-<td align="center" width="200">
-<img src="https://img.shields.io/badge/🐧-Linux_%26_Scripting-0a2a4a?style=for-the-badge" /><br/><br/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/><br/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/Cron%20Automation-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
-</td>
-<td align="center" width="200">
-<img src="https://img.shields.io/badge/🔑-Protocols_%26_Access-0a2a4a?style=for-the-badge" /><br/><br/>
-<img src="https://img.shields.io/badge/SAML%202.0%20%2F%20SSO-FF6C37?style=flat-square&logo=openid&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/DNS%20%2F%20DHCP-4cc8ee?style=flat-square&logo=cloudflare&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/NTFS%20Permissions-009ed4?style=flat-square&logo=files&logoColor=white"/><br/>
-<img src="https://img.shields.io/badge/LDAP%20%2F%20Kerberos-0077bb?style=flat-square&logo=microsoft&logoColor=white"/>
-</td>
-</tr>
-</table>
-
-</div>
-
-<!-- CYBER DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
-
-<br/>
-
-## `> ls -la ~/projects`
-
-<table width="100%">
-<tr>
 <td width="50%" valign="top">
 
-### 🗂 [Active Directory Enterprise Lab](https://github.com/Luisv-Cyber/Active-Directory-Enterprise-Lab)
+**[ActiveDirectory IAM Lab](https://github.com/Luisv-Cyber/ActiveDirectory-IAM-Lab)**
 
-![AD](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![WinServer](https://img.shields.io/badge/Windows%20Server-0078D4?style=flat-square&logo=windows&logoColor=white)
-![GPO](https://img.shields.io/badge/GPO-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![PS](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+IAM-focused Active Directory lab covering RBAC, least privilege, user lifecycle management, and access review workflows.
 
-Full enterprise AD environment from scratch. Domain controller setup, DNS, GPO, OU structure, and full user/group lifecycle on Windows Server.
+`AD` · `IAM` · `RBAC` · `Access Control`
 
-`DC Promotion` · `ADUC` · `GPO Enforcement` · `OU Design`
+**[View Project →](https://github.com/Luisv-Cyber/ActiveDirectory-IAM-Lab)**
 
 </td>
 <td width="50%" valign="top">
 
-### 🔒 [ActiveDirectory IAM Lab](https://github.com/Luisv-Cyber/ActiveDirectory-IAM-Lab)
+**[Linux Sysadmin Lab — Hyper-V](https://github.com/Luisv-Cyber/linux-sysadmin-lab-hyperv)**
 
-![IAM](https://img.shields.io/badge/IAM-009ed4?style=flat-square&logo=authelia&logoColor=white)
-![RBAC](https://img.shields.io/badge/RBAC-0077bb?style=flat-square&logo=microsoft&logoColor=white)
-![AD](https://img.shields.io/badge/Active%20Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+Ubuntu Server homelab on Hyper-V covering user/group management, RBAC, SSH hardening, systemctl, and automated disk monitoring.
 
-IAM lab on AD — RBAC, least-privilege enforcement, user lifecycle management, and access review workflows fully documented.
+`Linux` · `Bash` · `SSH Hardening` · `Cron`
 
-`RBAC` · `Least Privilege` · `Access Reviews` · `Provisioning`
+**[View Project →](https://github.com/Luisv-Cyber/linux-sysadmin-lab-hyperv)**
 
 </td>
 </tr>
-
-<tr><td colspan="2"><br/></td></tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### ☁️ [Azure Sentinel Global Attack Map](https://github.com/Luisv-Cyber/Azure-sentinel-global-attack-map)
+**[Flask SAML Auth — Google Workspace](https://github.com/Luisv-Cyber/flask-saml-auth)**
 
-![Azure](https://img.shields.io/badge/Azure%20Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![KQL](https://img.shields.io/badge/KQL-0077bb?style=flat-square&logo=microsoftazure&logoColor=white)
-![LogAnalytics](https://img.shields.io/badge/Log%20Analytics-009ed4?style=flat-square&logo=microsoftazure&logoColor=white)
+SAML 2.0 SSO implementation with Google Workspace as IdP and Flask as the service provider, with the full auth flow documented.
+
+`SSO` · `SAML` · `IdP/SP Config` · `Python`
+
+**[View Project →](https://github.com/Luisv-Cyber/flask-saml-auth)**
+
+</td>
+<td width="50%" valign="top">
+
+**[File Integrity Monitoring — Bash + Cron](https://github.com/Luisv-Cyber/File-Integrity-Monitoring-with-Bash-Cron)**
+
+SHA-256 hashing with Bash and cron to detect unauthorized file changes — a lightweight host-level security visibility tool.
+
+`FIM` · `Bash` · `Cron` · `Linux Security`
+
+**[View Project →](https://github.com/Luisv-Cyber/File-Integrity-Monitoring-with-Bash-Cron)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Azure Sentinel Global Attack Map](https://github.com/Luisv-Cyber/Azure-sentinel-global-attack-map)**
 
 Real-time RDP brute-force telemetry visualized on an interactive global map using Azure Sentinel and custom KQL queries.
 
-`SIEM` · `Threat Visualization` · `KQL` · `Azure Cloud`
+`SIEM` · `KQL` · `Azure Sentinel` · `Threat Visualization`
+
+**[View Project →](https://github.com/Luisv-Cyber/Azure-sentinel-global-attack-map)**
 
 </td>
 <td width="50%" valign="top">
-
-### 🔑 [Flask SAML Auth — Google Workspace](https://github.com/Luisv-Cyber/flask-saml-auth)
-
-![SSO](https://img.shields.io/badge/SAML%202.0-FF6C37?style=flat-square&logo=openid&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-SAML 2.0 SSO with Google Workspace as IdP and Flask as the service provider. Full auth flow implemented and documented.
-
-`SSO` · `SAML` · `IdP/SP Config` · `Python/Flask`
-
-</td>
-</tr>
-
-<tr><td colspan="2"><br/></td></tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🐧 [File Integrity Monitoring — Bash + Cron](https://github.com/Luisv-Cyber/File-Integrity-Monitoring-with-Bash-Cron)
-
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Cron](https://img.shields.io/badge/Cron-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-SHA-256 hashing + Bash + cron to detect unauthorized file changes. Lightweight host-level security visibility tool.
-
-`FIM` · `Bash Scripting` · `Cron Automation` · `Linux Security`
-
-</td>
-<td width="50%" valign="top">
-
-### 🖥️ [Linux Sysadmin Lab — Hyper-V](https://github.com/Luisv-Cyber/linux-sysadmin-lab-hyperv)
-
-![Ubuntu](https://img.shields.io/badge/Ubuntu%2024.04-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![HyperV](https://img.shields.io/badge/Hyper--V-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-
-Ubuntu Server 24.04 LTS homelab on Hyper-V — user/group management, RBAC, SSH hardening, systemctl, and automated disk monitoring via Bash + cron.
-
-`Linux Admin` · `Bash` · `Cron` · `SSH Hardening` · `Hyper-V`
 
 </td>
 </tr>
 </table>
 
-<!-- CYBER DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
+---
+
+## Core Technologies
+
+| Identity & Access | Systems Administration | Automation | Cloud / Monitoring |
+|---|---|---|---|
+| Active Directory | Windows Server | PowerShell | Azure |
+| SAML 2.0 / SSO | GPO / OU Design | Bash | Azure Sentinel |
+| RBAC / IAM | DNS / DHCP | Python | KQL / Log Analytics |
+| LDAP / Kerberos | Linux | Cron | Microsoft Defender |
+| NTFS Permissions | | | Azure AD |
 
 <br/>
 
-## `> htop --stats`
+## Certifications
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Luisv-Cyber&show_icons=true&theme=tokyonight&bg_color=010810&title_color=4cc8ee&text_color=c8e8f8&icon_color=0077bb&border_color=0a2a4a&count_private=true" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Luisv-Cyber&layout=compact&theme=tokyonight&bg_color=010810&title_color=4cc8ee&text_color=c8e8f8&border_color=0a2a4a&langs_count=6" alt="Top Languages"/>
+<img src="https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=flat-square&logo=comptia&logoColor=white"/>
+&nbsp;
+<img src="https://img.shields.io/badge/CompTIA-Network%2B-FF0000?style=flat-square&logo=comptia&logoColor=white"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Luisv-Cyber&theme=tokyonight&background=010810&ring=0077bb&fire=4cc8ee&currStreakLabel=4cc8ee&sideLabels=c8e8f8&dates=c8e8f8&border=0a2a4a" alt="GitHub Streak"/>
+## Current Work
 
-<br/><br/>
-
-<!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Luisv-Cyber&bg_color=010810&color=4cc8ee&line=0077bb&point=009ed4&area=true&area_color=0077bb&hide_border=false&border_color=0a2a4a&title_color=4cc8ee" width="96%" alt="Activity Graph"/>
-
-</div>
-
-<!-- CYBER DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
+| Project | Status |
+|---|---|
+| AD Enterprise Lab — PowerShell bulk provisioning | In Progress |
+| Portfolio | Live |
 
 <br/>
 
-## `> git log --in-progress`
+## GitHub Activity
 
-| | Project | Status |
-|:---:|---|:---:|
-| 📁 | AD Enterprise Lab — PowerShell bulk provisioning | `🔧 In Progress` |
-| ☁️ | AZ certification (possibly AZ next) | `🔍 Exploring` |
-| 🔐 | Access Review & Recertification Lab in AD | `📋 Planned` |
-| 🌐 | Portfolio → [luisv-cyber.github.io](https://luisv-cyber.github.io) | `✅ Live` |
-
-<!-- CYBER DIVIDER -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:010810,50:0077bb,100:010810&height=2&section=header" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Luisv-Cyber&bg_color=010810&color=4cc8ee&line=0077bb&point=009ed4&area=true&area_color=0077bb&hide_border=false&border_color=0a2a4a&title_color=4cc8ee" width="100%" alt="GitHub activity graph"/>
 
 <br/>
 
-## `> ping linkedin.com`
+## Contact
 
-<div align="center">
+**[Portfolio](https://luisv-cyber.github.io)** &nbsp;·&nbsp; **[Resume](https://luisv-cyber.github.io/Luis-Vega-Resume.pdf)** &nbsp;·&nbsp; **[LinkedIn](https://linkedin.com/in/luisvega03)** &nbsp;·&nbsp; **[GitHub](https://github.com/Luisv-Cyber)**
 
-<a href="https://linkedin.com/in/luisvega03">
-  <img src="https://img.shields.io/badge/LinkedIn-luisvega03-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Luisv-Cyber">
-  <img src="https://img.shields.io/badge/GitHub-Luisv--Cyber-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+Open to IAM / Access Management Analyst, Junior Systems Administrator, and Systems Support Engineer opportunities.
 
-<br/><br/>
-<sub>Open to <strong>Junior Systems Administrator</strong>, <strong>IAM / Access Management Analyst</strong>, and <strong>Systems Support Engineer</strong> roles.</sub>
 
-<br/><br/>
+================================================================
+FILE: assets/banner.svg   (commit at this exact path so ./assets/banner.svg above resolves)
+================================================================
 
-<!-- SNAKE GRAPH — requires GitHub Action setup (see note below) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Luisv-Cyber/Luisv-Cyber/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Luisv-Cyber/Luisv-Cyber/output/github-contribution-grid-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Luisv-Cyber/Luisv-Cyber/output/github-contribution-grid-snake-dark.svg"/>
-</picture>
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#010810"/>
+      <stop offset="60%" stop-color="#010810"/>
+      <stop offset="100%" stop-color="#0a2a4a"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0077bb" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#009ed4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0077bb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
 
-</div>
+  <rect width="1200" height="260" fill="url(#bg)"/>
 
-<br/>
+  <g stroke="#12395f" stroke-width="1" opacity="0.6">
+    <line x1="880" y1="60" x2="960" y2="100"/>
+    <line x1="960" y1="100" x2="960" y2="170"/>
+    <line x1="960" y1="100" x2="1040" y2="70"/>
+    <line x1="960" y1="170" x2="1040" y2="200"/>
+    <line x1="960" y1="170" x2="880" y2="200"/>
+    <line x1="1040" y1="70" x2="1110" y2="50"/>
+    <line x1="1040" y1="200" x2="1110" y2="220"/>
+  </g>
+  <g fill="#0a2a4a" stroke="#4cc8ee" stroke-width="1.2" opacity="0.9">
+    <circle cx="960" cy="100" r="5"/>
+    <circle cx="960" cy="170" r="5"/>
+    <circle cx="880" cy="60" r="4"/>
+    <circle cx="880" cy="200" r="4"/>
+    <circle cx="1040" cy="70" r="4"/>
+    <circle cx="1040" cy="200" r="4"/>
+    <circle cx="1110" cy="50" r="3.5"/>
+    <circle cx="1110" cy="220" r="3.5"/>
+  </g>
 
-<!-- FOOTER WAVE -->
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:009ed4,50:0077bb,100:010810&height=110&section=footer" width="100%"/>
-</div>
+  <g stroke="#0a2a4a" stroke-width="1" opacity="0.8">
+    <line x1="60" y1="0" x2="60" y2="260"/>
+    <line x1="60" y1="130" x2="90" y2="130"/>
+  </g>
 
-<!--
-╔══════════════════════════════════════════════════════════╗
-║  SNAKE SETUP — one-time GitHub Action                   ║
-║                                                          ║
-║  1. In your Luisv-Cyber/Luisv-Cyber repo go to:         ║
-║     Settings → Actions → General                         ║
-║     → set "Workflow permissions" to Read and Write       ║
-║                                                          ║
-║  2. Create file:                                         ║
-║     .github/workflows/snake.yml                          ║
-║     with this content:                                   ║
-║                                                          ║
-║  name: Snake                                             ║
-║  on:                                                     ║
-║    schedule:                                             ║
-║      - cron: "0 0 * * *"                                 ║
-║    workflow_dispatch:                                     ║
-║  jobs:                                                   ║
-║    generate:                                             ║
-║      runs-on: ubuntu-latest                              ║
-║      steps:                                              ║
-║        - uses: Platane/snk/svg-only@v3                   ║
-║          with:                                           ║
-║            github_user_name: Luisv-Cyber                 ║
-║            outputs: |                                    ║
-║              dist/github-contribution-grid-snake.svg     ║
-║              dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-║        - uses: crazy-max/ghaction-github-pages@v3        ║
-║          with:                                           ║
-║            target_branch: output                         ║
-║            build_dir: dist                               ║
-║          env:                                            ║
-║            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}     ║
-╚══════════════════════════════════════════════════════════╝
--->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accentLine)"/>
+  <rect x="0" y="257" width="1200" height="3" fill="url(#accentLine)"/>
+
+  <text x="70" y="108" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#eaf6ff" letter-spacing="1">Luis Vega</text>
+
+  <text x="72" y="142" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#4cc8ee" letter-spacing="0.5">IAM / Systems Administration</text>
+
+  <text x="72" y="174" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#7fb8d8" letter-spacing="0.3">Active Directory  •  Windows Server  •  PowerShell  •  SAML / SSO</text>
+
+  <text x="72" y="202" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#3f7ba0" letter-spacing="0.5">Security+  •  Network+</text>
+</svg>
