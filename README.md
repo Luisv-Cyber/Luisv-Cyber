@@ -5,8 +5,6 @@
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=Luisv-Cyber&style=for-the-badge&color=0077bb&label=PROFILE+VIEWS"/>
-&nbsp;
 <img src="https://img.shields.io/badge/Status-Open%20to%20Work-00c8a8?style=for-the-badge&logo=checkmarx&logoColor=white"/>
 &nbsp;
 <img src="https://img.shields.io/badge/Location-Hybrid%20Friendly-4cc8ee?style=for-the-badge&logo=googlemaps&logoColor=white"/>
@@ -177,6 +175,8 @@ echo ">> Portfolio: https://luisv-cyber.github.io"
 ![WinServer](https://img.shields.io/badge/Windows%20Server-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![GPO](https://img.shields.io/badge/GPO-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![PS](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+
+<img src="https://github.com/Luisv-Cyber/Active-Directory-Enterprise-Lab/raw/main/screenshots/Screenshot%202026-03-15%20122836.png?raw=true" width="100%" alt="Active Directory OU structure"/>
 
 Full enterprise AD environment from scratch. Domain controller setup, DNS, GPO, OU structure, and full user/group lifecycle on Windows Server.
 
